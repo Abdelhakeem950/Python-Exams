@@ -1,0 +1,5 @@
+print ("Welcome to our shop ")
+purchse = int(input("Enter your purchase amount : "))
+if purchse <100 : print(f'Unfortuneately you did not get the discount \nThe Total Payment is: ${int(purchse)}')
+elif purchse >= 100 and purchse < 500: print (f'You won 10% discount \nThe Total Payment is: ${int(purchse*.9)}')
+else : print (f'You won 20% discount \nThe Total Payment is: ${int(purchse *.8)}')
